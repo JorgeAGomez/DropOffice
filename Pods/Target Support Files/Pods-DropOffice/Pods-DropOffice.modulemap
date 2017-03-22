@@ -1,0 +1,6 @@
+framework module Pods_DropOffice {
+  umbrella header "Pods-DropOffice-umbrella.h"
+
+  export *
+  module * { export * }
+}

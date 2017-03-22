@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D61149F11E7A569A00327C6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61149F01E7A569A00327C6B /* AppDelegate.swift */; };
+		D61149F61E7A569A00327C6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D61149F41E7A569A00327C6B /* Main.storyboard */; };
+		D61149F91E7A569A00327C6B /* DropOffice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D61149F71E7A569A00327C6B /* DropOffice.xcdatamodeld */; };
+		D61149FB1E7A569A00327C6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D61149FA1E7A569A00327C6B /* Assets.xcassets */; };
+		D61149FE1E7A569A00327C6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D61149FC1E7A569A00327C6B /* LaunchScreen.storyboard */; };
+		D6114A061E7A56FD00327C6B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6114A051E7A56FD00327C6B /* LoginVC.swift */; };
+		D6114A0C1E7A5FD100327C6B /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6114A0B1E7A5FD100327C6B /* OnboardingVC.swift */; };
+		D6D40FF11E7CE581009D6918 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D40FF01E7CE581009D6918 /* MapVC.swift */; };
+		D6D40FF31E7CE915009D6918 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D40FF21E7CE915009D6918 /* MapKit.framework */; };
+		D6D40FF51E7CF2D6009D6918 /* pinLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D40FF41E7CF2D6009D6918 /* pinLocations.swift */; };
+		D6D40FF71E7D068C009D6918 /* MessagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D40FF61E7D068C009D6918 /* MessagesVC.swift */; };
+		D6D40FF91E807939009D6918 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D40FF81E807939009D6918 /* ProfileVC.swift */; };
+		D6D40FFB1E808E74009D6918 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D40FFA1E808E74009D6918 /* MessageCell.swift */; };
+		D6D410051E80D417009D6918 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D410041E80D417009D6918 /* SWRevealViewController.m */; };
+		E400532FB92A7923B3685668 /* Pods_DropOffice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C102186ACD9E6D2170D42D /* Pods_DropOffice.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11C102186ACD9E6D2170D42D /* Pods_DropOffice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DropOffice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6774370660D982822B4E741B /* Pods-DropOffice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropOffice.release.xcconfig"; path = "Pods/Target Support Files/Pods-DropOffice/Pods-DropOffice.release.xcconfig"; sourceTree = "<group>"; };
+		7360A2244792CC07394D0C87 /* Pods-DropOffice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropOffice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DropOffice/Pods-DropOffice.debug.xcconfig"; sourceTree = "<group>"; };
+		D61149ED1E7A569A00327C6B /* DropOffice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropOffice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D61149F01E7A569A00327C6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D61149F51E7A569A00327C6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D61149F81E7A569A00327C6B /* DropOffice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DropOffice.xcdatamodel; sourceTree = "<group>"; };
+		D61149FA1E7A569A00327C6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D61149FD1E7A569A00327C6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D61149FF1E7A569A00327C6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6114A051E7A56FD00327C6B /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		D6114A0B1E7A5FD100327C6B /* OnboardingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
+		D6D40FF01E7CE581009D6918 /* MapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		D6D40FF21E7CE915009D6918 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D6D40FF41E7CF2D6009D6918 /* pinLocations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pinLocations.swift; sourceTree = "<group>"; };
+		D6D40FF61E7D068C009D6918 /* MessagesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesVC.swift; sourceTree = "<group>"; };
+		D6D40FF81E807939009D6918 /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		D6D40FFA1E808E74009D6918 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		D6D410021E80D416009D6918 /* DropOffice-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DropOffice-Bridging-Header.h"; sourceTree = "<group>"; };
+		D6D410031E80D417009D6918 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		D6D410041E80D417009D6918 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D61149EA1E7A569A00327C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D40FF31E7CE915009D6918 /* MapKit.framework in Frameworks */,
+				E400532FB92A7923B3685668 /* Pods_DropOffice.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B53989CACCBD501F2446F353 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6D40FF21E7CE915009D6918 /* MapKit.framework */,
+				11C102186ACD9E6D2170D42D /* Pods_DropOffice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C914693C6C1BDA19ED7E6ABA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7360A2244792CC07394D0C87 /* Pods-DropOffice.debug.xcconfig */,
+				6774370660D982822B4E741B /* Pods-DropOffice.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D61149E41E7A569A00327C6B = {
+			isa = PBXGroup;
+			children = (
+				D61149EF1E7A569A00327C6B /* DropOffice */,
+				D61149EE1E7A569A00327C6B /* Products */,
+				C914693C6C1BDA19ED7E6ABA /* Pods */,
+				B53989CACCBD501F2446F353 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D61149EE1E7A569A00327C6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D61149ED1E7A569A00327C6B /* DropOffice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D61149EF1E7A569A00327C6B /* DropOffice */ = {
+			isa = PBXGroup;
+			children = (
+				D6D410061E80D422009D6918 /* Frameworks */,
+				D6114A0A1E7A572C00327C6B /* Resources */,
+				D6114A081E7A570B00327C6B /* Model */,
+				D6114A091E7A571A00327C6B /* View */,
+				D6114A071E7A570500327C6B /* Controller */,
+			);
+			path = DropOffice;
+			sourceTree = "<group>";
+		};
+		D6114A071E7A570500327C6B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D6114A051E7A56FD00327C6B /* LoginVC.swift */,
+				D6114A0B1E7A5FD100327C6B /* OnboardingVC.swift */,
+				D6D40FF01E7CE581009D6918 /* MapVC.swift */,
+				D6D40FF61E7D068C009D6918 /* MessagesVC.swift */,
+				D6D40FFA1E808E74009D6918 /* MessageCell.swift */,
+				D6D40FF81E807939009D6918 /* ProfileVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D6114A081E7A570B00327C6B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D61149F01E7A569A00327C6B /* AppDelegate.swift */,
+				D6D40FF41E7CF2D6009D6918 /* pinLocations.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D6114A091E7A571A00327C6B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D61149F41E7A569A00327C6B /* Main.storyboard */,
+				D61149FC1E7A569A00327C6B /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D6114A0A1E7A572C00327C6B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D61149FF1E7A569A00327C6B /* Info.plist */,
+				D61149FA1E7A569A00327C6B /* Assets.xcassets */,
+				D61149F71E7A569A00327C6B /* DropOffice.xcdatamodeld */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D6D410061E80D422009D6918 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6D410031E80D417009D6918 /* SWRevealViewController.h */,
+				D6D410041E80D417009D6918 /* SWRevealViewController.m */,
+				D6D410021E80D416009D6918 /* DropOffice-Bridging-Header.h */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D61149EC1E7A569A00327C6B /* DropOffice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6114A021E7A569A00327C6B /* Build configuration list for PBXNativeTarget "DropOffice" */;
+			buildPhases = (
+				603CEB1B8FC6EB788F55BB3D /* [CP] Check Pods Manifest.lock */,
+				D61149E91E7A569A00327C6B /* Sources */,
+				D61149EA1E7A569A00327C6B /* Frameworks */,
+				D61149EB1E7A569A00327C6B /* Resources */,
+				B1AA674F0FC10DE62D3A48FB /* [CP] Embed Pods Frameworks */,
+				27F6FDFD8289D55F5D69156D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropOffice;
+			productName = DropOffice;
+			productReference = D61149ED1E7A569A00327C6B /* DropOffice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D61149E51E7A569A00327C6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jorge Gomez";
+				TargetAttributes = {
+					D61149EC1E7A569A00327C6B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = W5UDVEMQ22;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = D61149E81E7A569A00327C6B /* Build configuration list for PBXProject "DropOffice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D61149E41E7A569A00327C6B;
+			productRefGroup = D61149EE1E7A569A00327C6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D61149EC1E7A569A00327C6B /* DropOffice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D61149EB1E7A569A00327C6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61149FE1E7A569A00327C6B /* LaunchScreen.storyboard in Resources */,
+				D61149FB1E7A569A00327C6B /* Assets.xcassets in Resources */,
+				D61149F61E7A569A00327C6B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27F6FDFD8289D55F5D69156D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DropOffice/Pods-DropOffice-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		603CEB1B8FC6EB788F55BB3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B1AA674F0FC10DE62D3A48FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DropOffice/Pods-DropOffice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D61149E91E7A569A00327C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D40FF11E7CE581009D6918 /* MapVC.swift in Sources */,
+				D61149F11E7A569A00327C6B /* AppDelegate.swift in Sources */,
+				D6D40FF51E7CF2D6009D6918 /* pinLocations.swift in Sources */,
+				D6114A0C1E7A5FD100327C6B /* OnboardingVC.swift in Sources */,
+				D6D40FF91E807939009D6918 /* ProfileVC.swift in Sources */,
+				D61149F91E7A569A00327C6B /* DropOffice.xcdatamodeld in Sources */,
+				D6114A061E7A56FD00327C6B /* LoginVC.swift in Sources */,
+				D6D410051E80D417009D6918 /* SWRevealViewController.m in Sources */,
+				D6D40FF71E7D068C009D6918 /* MessagesVC.swift in Sources */,
+				D6D40FFB1E808E74009D6918 /* MessageCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D61149F41E7A569A00327C6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D61149F51E7A569A00327C6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D61149FC1E7A569A00327C6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D61149FD1E7A569A00327C6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6114A001E7A569A00327C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6114A011E7A569A00327C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6114A031E7A569A00327C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7360A2244792CC07394D0C87 /* Pods-DropOffice.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = W5UDVEMQ22;
+				INFOPLIST_FILE = DropOffice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JorgeGomez.DropOffice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DropOffice/DropOffice-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D6114A041E7A569A00327C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6774370660D982822B4E741B /* Pods-DropOffice.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = W5UDVEMQ22;
+				INFOPLIST_FILE = DropOffice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JorgeGomez.DropOffice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DropOffice/DropOffice-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D61149E81E7A569A00327C6B /* Build configuration list for PBXProject "DropOffice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6114A001E7A569A00327C6B /* Debug */,
+				D6114A011E7A569A00327C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6114A021E7A569A00327C6B /* Build configuration list for PBXNativeTarget "DropOffice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6114A031E7A569A00327C6B /* Debug */,
+				D6114A041E7A569A00327C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D61149F71E7A569A00327C6B /* DropOffice.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D61149F81E7A569A00327C6B /* DropOffice.xcdatamodel */,
+			);
+			currentVersion = D61149F81E7A569A00327C6B /* DropOffice.xcdatamodel */;
+			path = DropOffice.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D61149E51E7A569A00327C6B /* Project object */;
+}
