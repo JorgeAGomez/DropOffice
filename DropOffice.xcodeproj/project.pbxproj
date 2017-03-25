@@ -14,9 +14,10 @@
 		D61149FE1E7A569A00327C6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D61149FC1E7A569A00327C6B /* LaunchScreen.storyboard */; };
 		D6114A061E7A56FD00327C6B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6114A051E7A56FD00327C6B /* LoginVC.swift */; };
 		D6114A0C1E7A5FD100327C6B /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6114A0B1E7A5FD100327C6B /* OnboardingVC.swift */; };
+		D6785F2C1E85D7A9000E3AD7 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6785F2B1E85D7A9000E3AD7 /* DetailVC.swift */; };
 		D6D40FF11E7CE581009D6918 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D40FF01E7CE581009D6918 /* MapVC.swift */; };
 		D6D40FF31E7CE915009D6918 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D40FF21E7CE915009D6918 /* MapKit.framework */; };
-		D6D40FF51E7CF2D6009D6918 /* pinLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D40FF41E7CF2D6009D6918 /* pinLocations.swift */; };
+		D6D40FF51E7CF2D6009D6918 /* dropLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D40FF41E7CF2D6009D6918 /* dropLocations.swift */; };
 		D6D40FF71E7D068C009D6918 /* MessagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D40FF61E7D068C009D6918 /* MessagesVC.swift */; };
 		D6D40FF91E807939009D6918 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D40FF81E807939009D6918 /* ProfileVC.swift */; };
 		D6D40FFB1E808E74009D6918 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D40FFA1E808E74009D6918 /* MessageCell.swift */; };
@@ -37,9 +38,10 @@
 		D61149FF1E7A569A00327C6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6114A051E7A56FD00327C6B /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		D6114A0B1E7A5FD100327C6B /* OnboardingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
+		D6785F2B1E85D7A9000E3AD7 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		D6D40FF01E7CE581009D6918 /* MapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		D6D40FF21E7CE915009D6918 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		D6D40FF41E7CF2D6009D6918 /* pinLocations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pinLocations.swift; sourceTree = "<group>"; };
+		D6D40FF41E7CF2D6009D6918 /* dropLocations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dropLocations.swift; sourceTree = "<group>"; };
 		D6D40FF61E7D068C009D6918 /* MessagesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesVC.swift; sourceTree = "<group>"; };
 		D6D40FF81E807939009D6918 /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		D6D40FFA1E808E74009D6918 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				D6D40FF61E7D068C009D6918 /* MessagesVC.swift */,
 				D6D40FFA1E808E74009D6918 /* MessageCell.swift */,
 				D6D40FF81E807939009D6918 /* ProfileVC.swift */,
+				D6785F2B1E85D7A9000E3AD7 /* DetailVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -126,7 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				D61149F01E7A569A00327C6B /* AppDelegate.swift */,
-				D6D40FF41E7CF2D6009D6918 /* pinLocations.swift */,
+				D6D40FF41E7CF2D6009D6918 /* dropLocations.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -292,7 +295,8 @@
 			files = (
 				D6D40FF11E7CE581009D6918 /* MapVC.swift in Sources */,
 				D61149F11E7A569A00327C6B /* AppDelegate.swift in Sources */,
-				D6D40FF51E7CF2D6009D6918 /* pinLocations.swift in Sources */,
+				D6785F2C1E85D7A9000E3AD7 /* DetailVC.swift in Sources */,
+				D6D40FF51E7CF2D6009D6918 /* dropLocations.swift in Sources */,
 				D6114A0C1E7A5FD100327C6B /* OnboardingVC.swift in Sources */,
 				D6D40FF91E807939009D6918 /* ProfileVC.swift in Sources */,
 				D61149F91E7A569A00327C6B /* DropOffice.xcdatamodeld in Sources */,
@@ -422,6 +426,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = W5UDVEMQ22;
 				INFOPLIST_FILE = DropOffice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -439,6 +444,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = W5UDVEMQ22;
 				INFOPLIST_FILE = DropOffice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
